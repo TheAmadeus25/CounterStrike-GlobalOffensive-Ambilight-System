@@ -3,7 +3,7 @@ This Add-on control **WS2812B** LED strip, based on your **in-game** stats like 
 
 ✔ **It use UDP, which has real-time reaction!**
 
-❗ **Read the [Wiki](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/wiki) how to install it.**
+❗ **Read the [Wiki](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/wiki) how to install it. NOTE: The Wiki isn't finished but I can't write until this Repository is released. I do Copy&Past at the moment xD**
 
 💬 **Official VAC Review pending!** *(Still waiting)*
 
