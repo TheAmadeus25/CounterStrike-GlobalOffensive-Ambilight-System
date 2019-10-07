@@ -3,7 +3,7 @@ This Add-on control **WS2812B** LED strip, based on your **in-game** stats like 
 
 ✔ **At the moment, it use UDP, which has real-time reaction.**
 
-❗❗ **Read the [Wiki]() how to install it.**
+❗ **Read the [Wiki]() how to install it.**
 
 💬 **Official VAC Review pending!** *(Still waiting)*
 
