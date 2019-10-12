@@ -34,6 +34,8 @@ This Add-on control **WS2812B** LED strip, based on your **In-Game** stats like 
 
 ![Mode GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/Mode.gif)
 
+******
+
 **Preview 1 HP left**
 
 ![1HP v1](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/1HP.png)
