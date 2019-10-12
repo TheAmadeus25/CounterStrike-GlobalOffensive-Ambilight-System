@@ -10,19 +10,19 @@ This Add-on control **WS2812B** LED strip, based on your **In-Game** stats like 
 ****
 # Preview
 
-**Preview Health (Version 1) (GIF)**
+**Preview Health (Version 1) (GIF) ([Video](https://twitter.com/TheAmadeus25/status/1182795277587111941))**
 
 ![Healthbar_1 GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/Healthbar_1.gif)
 
-**Preview Health (Version 2) (GIF)**
+**Preview Health (Version 2) (GIF) ([Video](https://twitter.com/TheAmadeus25/status/1182795772561186816))**
 
 ![Healthbar_2 GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/Healthbar_2.gif)
 
-**Preview CT Wins (GIF)**
+**Preview CT Wins (GIF) ([Video](https://twitter.com/TheAmadeus25/status/1182795385493962754))**
 
 ![CT_Win GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/CT_Win.gif)
 
-**Preview T Wins (GIF)**
+**Preview T Wins (GIF) ([Video](https://twitter.com/TheAmadeus25/status/1182795525990617088))**
 
 ![T_Win GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/T_Win.gif)
 
@@ -30,7 +30,7 @@ This Add-on control **WS2812B** LED strip, based on your **In-Game** stats like 
 
 ![Flashed GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/Flashed.gif)
 
-**Preview Different Layout (GIF)**
+**Preview Different Layout (GIF) ([Photos](https://twitter.com/TheAmadeus25/status/1182795872981180418))**
 
 ![Mode GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/Mode.gif)
 
