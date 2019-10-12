@@ -1,5 +1,5 @@
 # CounterStrike GlobalOffensive - Ambilight-System
-This Add-on control **WS2812B** LED strip, based on your **in-game** stats like health, armor, and many more. It make use of the **[official API from Valve](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Game_State_Integration#Sample_HTTP_POST_Endpoint_Server)** and need a modified version of the script. You can find it **[here](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-LiveStat-for-OBS-Studio)** which work for streaming software like OBS *(and similar)*, aswell. It does require **[Node.js](https://nodejs.org/en/download/)** which act like a server for the game and the ESP8266. Beside, it has some pre-defined Ambilight Layout which can change by pressing the FLASH-Button on the ESP8266.
+This Add-on control **WS2812B** LED strip, based on your **In-Game** stats like health, armor, and many more. It make use of the **[official API from Valve](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Game_State_Integration#Sample_HTTP_POST_Endpoint_Server)** and need a modified version of the script. You can find it **[here](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-LiveStat-for-OBS-Studio)** which work for streaming software like OBS *(and similar)*, aswell. It does require **[Node.js](https://nodejs.org/en/download/)** which act like a server for the game and the ESP8266. Beside, it has some pre-defined Ambilight Layout which can change by pressing the FLASH-Button on the ESP8266. But there is more, it works **WIRELESS!** Theoretical, you can attach as many LED's as you wish. You need to add the IP inside the script, but I'll make a wiki for it.
 
 ✔ **It use UDP, which has real-time reaction!**
 
@@ -8,7 +8,7 @@ This Add-on control **WS2812B** LED strip, based on your **in-game** stats like 
 💬 **Official VAC Review pending!** *(Still waiting)*
 
 ****
-# Preview (GIF)
+# Preview
 
 **Preview Health (Version 1) (GIF)**
 
@@ -33,6 +33,18 @@ This Add-on control **WS2812B** LED strip, based on your **in-game** stats like 
 **Preview Different Layout (GIF)**
 
 ![Mode GIF](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/Mode.gif)
+
+**Preview 1 HP left**
+
+![1HP v1](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/1HP.png)
+
+**Preview 1 HP left v2**
+
+![1HP v2](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/1HP_v2.png)
+
+**Preview low Health (8HP) and low Armor (46%)**
+
+![Low Health and Armor](https://github.com/TheAmadeus25/CounterStrike-GlobalOffensive-Ambilight-System/blob/master/Photos/LowHealth_LowArmor.png)
 
 ***
 
