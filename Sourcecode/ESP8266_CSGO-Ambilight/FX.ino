@@ -7,8 +7,8 @@ void Light_FX() {
     case 1:
       Zone.A_LOW  = ZONE_5_LOW;
       Zone.A_HIGH = ZONE_5_HIGH;
-      Zone.B_LOW  = ZONE_4_LOW;
-      Zone.B_HIGH = ZONE_4_HIGH;
+      Zone.B_LOW  = ZONE_1_LOW;
+      Zone.B_HIGH = ZONE_1_HIGH;
       break;
     case 2:
       Zone.A_LOW  = ZONE_5_LOW;
@@ -45,21 +45,32 @@ void Light_FX() {
   return;
 }
 
-void Set_FX() {
+void Set_FX() {  
+  if (Player.activity == "menu") {
+    EndDots();
+    return;
+  }
+
   if (Player.flashed != 0) {
     Flashed();
     return;
   }
-  
+
   if (Round.win_team == "CT") {
     FillLED(0, 0, 255);
-
     return;
   } else if (Round.win_team == "T") {
     //FillLED(204, 153, 0);
     FillLED(255, 153, 0);
     return;
   }
+
+  if (Player.smoked != 0) {
+    Smoked();
+    return;
+  }
+
+
 
   switch (Light_Mode) {
     case 0: Life(Zone.A_LOW, Zone.A_HIGH);  break;

@@ -20,12 +20,13 @@ int packetSize, len;
 String payload = "";                                              // Input Buffer
 
 bool canBtnPress = true;                                          // Button available
-bool ShowOverlay = true;                                          // 
+bool ShowOverlay = true;                                          //
 
 short ColorMover = 0;                                             // Important for HSV Colorspace
 
 short Light_Mode = 0;                                             // Which Light Mode is active now
-bool  FX_Changed = false;
+bool  FX_Changed = false;                                         //
+
 
 struct {
   short A_LOW, A_HIGH = 0;
@@ -35,8 +36,6 @@ struct {
   short E_LOW, E_HIGH = 0;
 } Zone;
 
-
-
 struct {
   short        health        = 0;                                 // Optimized for 100 -> 0
   short        armor         = 0;                                 // Value between 100 -> 0
@@ -44,8 +43,9 @@ struct {
   unsigned int burning       = 0;                                 // Value between 255 -> 0
   unsigned int round_killshs = 0;                                 // Optimized for 0 -> 5
   String       helmet        = "";                                // Value is true or false
-  bool         smoked        = false;                             // Value is true or false
+  unsigned int smoked        = 0;                                 // Value between 255 -> 0
   bool         defusekit     = false;                             // Value is true or undefined (wtf?)
+  String       activity      = "";                                // Menu, Playing
 } Player, Player_Last;
 
 struct {
@@ -56,11 +56,9 @@ struct {
 short Value_Parts = 0;
 
 struct {
-  const long    refresh_delay = 100;                              // How often checking for new Information
-  unsigned long last_refresh  = 0;                                // Last time checking for new Information
-} Websocket;
-
-
+  const long    refresh_delay = 5000;                            // Standby after X seconds.
+  unsigned long last_refresh  = 0;                                // Last time getting new Information
+} Refresh;
 
 
 

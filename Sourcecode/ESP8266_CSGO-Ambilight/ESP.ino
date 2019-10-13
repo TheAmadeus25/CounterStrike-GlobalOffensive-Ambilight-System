@@ -2,6 +2,9 @@ void InitESP() {
   Serial.begin(115200);
   WiFi.begin(ssid, password);
   delay(100);
+  pinMode(BTN, INPUT);
+  pinMode(LED1, OUTPUT);
+  pinMode(LED2, OUTPUT);
 
   return;
 }
@@ -27,7 +30,6 @@ void Mode() {                                       // # Check if Button is Pres
   } else if (!canBtnPress) {
     canBtnPress = true;
 
-
     if ( (Light_Mode + 1) > 3 ) {
       Light_Mode = 0;
     } else {
@@ -35,6 +37,20 @@ void Mode() {                                       // # Check if Button is Pres
     }
 
     Light_FX();
+  }
+
+  return;
+}
+
+void Standby() {
+  if (millis() >= Refresh.last_refresh + Refresh.refresh_delay) {
+    ClearLED();
+    //digitalWrite(LED1, HIGH);
+    digitalWrite(LED2, LOW);
+
+  } else {
+    //digitalWrite(LED1, LOW);
+    digitalWrite(LED2, HIGH);
   }
 
   return;

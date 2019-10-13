@@ -78,6 +78,26 @@ void ClearLED() {
   return;
 }
 
+void ClearZone(short START, short END) {
+  for (short i = START; i <= END; i++) {
+    leds[i] = CRGB(0, 0, 0);
+  }
+
+  FastLED.show();
+
+  return;
+}
+
+void EndDots() {
+  ClearLED();
+  leds[0] = CRGB(128, 128, 128);
+  leds[NUM_LEDS - 1] = CRGB(128, 128, 128);
+  
+  FastLED.show();
+
+  return;
+}
+
 // ------ All kind of Lightning FX ------ //
 
 void Life(short START, short END) {
@@ -151,7 +171,17 @@ void Helmet(short START, short END) {
 
 void Flashed() {
   int Offset = map( Player.flashed, 255, 0, 255, 128 );
-  
+
+  FillLED(Offset, Offset, Offset);
+
+  FastLED.show();
+
+  return;
+}
+
+void Smoked() {
+  //int Offset = map( Player.smoked, 255, 0, 64, 10 );
+  int Offset = 20;
   FillLED(Offset, Offset, Offset);
 
   FastLED.show();

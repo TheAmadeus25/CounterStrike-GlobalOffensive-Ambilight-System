@@ -26,6 +26,7 @@ void InitUDP() {
 void GetUDP() {
   packetSize = Udp.parsePacket();
   if (packetSize) {
+    digitalWrite(LED1, LOW);
     len = Udp.read(incomingPacket, 128);
     if (len > 0) {
       incomingPacket[len] = 0;
@@ -37,7 +38,7 @@ void GetUDP() {
     //Udp.beginPacket(Udp.remoteIP(), Udp.remotePort());
     //Udp.write(replyPacket);
     Udp.endPacket();
-
+    digitalWrite(LED1, HIGH);
     Parsing();
   }
 
